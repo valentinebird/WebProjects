@@ -67,11 +67,11 @@
 <form method="get">
     <label for="email">E-mail:</label>
     <input type="text" name="email" placeholder="email@email.com" id="email"/>
-    <br />
+    <br/>
     <label for="password">Password: </label>
     <input type="password" name="password" placeholder="password" id="password"/>
-    <br />
-    <input type="submit" value="login" />
+    <br/>
+    <input type="submit" value="login"/>
 </form>
 
 <br>
@@ -88,11 +88,25 @@
     <label for="city">City: </label>
     <input type="text" name="city" placeholder="city" id="city">
     <br>
-    <label for="shipping"></label><select name="shipping" id="shipping">
+    <label for="shipping">Select shipping</label>
+    <select name="shipping" id="shipping">
+        <option value="Free shipping">Free shipping</option>
+        <option value="Fast shipping">Fast shipping</option>
+        <option value="Emergency shipping">Emergency shipping</option>
 
     </select>
+<p>Choose your payment method</p>
+    <input type="radio" name="payment" id="PayPal" value="PayPal">
+    <label for="PayPal">PayPal</label>
 
+    <input type="radio" name="payment" id="CreditCard" value="CreditCard">
+    <label for="CreditCard">CreditCard</label>
 
+    <input type="radio" name="payment" id="DebitCard" value="DebitCard">
+    <label for="DebitCard">DebitCard</label>
+    <br>
+    <label for="comment">Write your comments here</label>
+    <textarea name="comment" id="comment"></textarea>
 </form>
 
 
