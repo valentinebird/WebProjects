@@ -1,10 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+
+<h1>Intro</h1>
+<iframe src="ifrane.txt"></iframe>
+<iframe name="myiframe"></iframe>
+<p><a href="https://en.wikipedia.org/wiki/Main_Page" target="myiframe">link</a></p>
+
+<!-- list -->
+<ul>
+    <li>Capital</li>
+    <li>Capital</li>
+</ul>
+
+<ol type="a">
+    <li>banana</li>
+    <li>apple</li>
+    <li>mango</li>
+</ol>
+
+<!--description list
+
+<dt>
+    <p>HTML</p>
+<dd>Stands for HyperText Markup language</dd>
+</dt>
+
+-->
+<!--table -->
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td>SSD</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>HDD</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>GPU</td>
+        <td>300</td>
+    </tr>
+    <tr>
+        <td>CPU</td>
+        <td>400</td>
+    </tr>
+
+
+</table>
+
+<!-- entities reserved charset -->
+<p>apple &#160 banan</p>
+<p>4 &lt; 5</p>
+<p> &copy; </p>
+
+<!-- simple login form-->
+
+<form method="get">
+    <label for="email">E-mail:</label>
+    <input type="text" name="email" placeholder="email@email.com" id="email"/>
+    <br />
+    <label for="password">Password: </label>
+    <input type="password" name="password" placeholder="password" id="password"/>
+    <br />
+    <input type="submit" value="login" />
+</form>
+
+<br>
+<br>
+<br>
+
+<form>
+    <label for="address">Address:</label>
+    <input type="text" name="address" placeholder="address" id="address"/>
+    <br>
+    <label for="postalCode">Postal Code:</label>
+    <input type="text" name="postalCode" placeholder="postalCode" id="postalCode"/>
+    <br>
+    <label for="city">City: </label>
+    <input type="text" name="city" placeholder="city" id="city">
+    <br>
+    <label for="shipping"></label><select name="shipping" id="shipping">
+
+    </select>
+
+</form>
+
 
 </body>
 </html>
